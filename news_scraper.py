@@ -102,7 +102,7 @@ def main_cli():
                 results[category] = articles
         else:
             # Scrape all categories
-            results = scraper.scrape_all_categories(max_articles_per_source=8)
+            results = scraper.scrape_all_categories(max_articles_per_source=15)
         
         scraper.results = results
         
