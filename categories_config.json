@@ -11,7 +11,10 @@
         "https://news.mit.edu/rss/topic/artificial-intelligence2",
         "https://openai.com/blog/rss.xml",
         "https://aimagazine.com/",
-        "https://techcrunch.com/category/artificial-intelligence"
+        "https://techcrunch.com/category/artificial-intelligence",
+        "https://www.automate.org/ai/blogs?utm_source=chatgpt.com",
+        "https://www.automateed.com/blog?utm_source=chatgpt.com",
+        "https://www.automateshow.com/blog?utm_source=chatgpt.com"
       ]
     },
     "Marketing": {
@@ -22,7 +25,10 @@
         "https://www.cxtoday.com/?utm_source=chatgpt.com",
         "https://digitalmarketinginstitute.com/blog/digital-marketing-trends-2025",
         "https://news.google.com/topics/CAAqLQgKIidDQkFTRndvSkwyMHZNR1ptZHpWbUVnWmxjeTAwTVRrYUFrRlNLQUFQAQ?hl=es-419&gl=AR&ceid=AR%3Aes-419",
-        "https://www.digitalcommerce360.com/?utm_source=chatgpt.com"
+        "https://www.digitalcommerce360.com/?utm_source=chatgpt.com",
+        "https://www.growthfriday.com/blog?utm_source=chatgpt.com",
+        "https://plannedgrowth.com/blog/?utm_source=chatgpt.com",
+        "https://8ms.com/blog"
       ]
     },
     "Business": {
@@ -32,7 +38,8 @@
         "https://www.iebschool.com/hub/tendencias-empresariales-innovacion-innovacion/?utm_source=chatgpt.com",
         "https://www.gartner.com/en/newsroom",
         "https://fortune.com/",
-        "https://www.entrepreneur.com/"
+        "https://www.entrepreneur.com/",
+        "https://business-skills-mastery.com/business-growth-blog"
       ]
     },
     "Corporate Advisory": {
@@ -45,7 +52,10 @@
         "https://news.crunchbase.com/",
         "https://venturebeat.com/category/startups",
         "https://www.wsj.com/",
-        "https://finance.yahoo.com/"
+        "https://finance.yahoo.com/",
+        "https://fintechmagazine.com/?utm_source=chatgpt.com",
+        "https://fintechoutlook.com/blogs/",
+        "https://www.fintechnews.org/?utm_source=chatgpt.com"
       ]
     }
   }
