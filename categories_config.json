@@ -6,57 +6,97 @@
         "https://aibusiness.com/",
         "https://www.artificialintelligence-news.com/",
         "https://newsroom.ibm.com/",
-        "https://www.trendhunter.com/",
         "https://venturebeat.com/ai/",
         "https://news.mit.edu/rss/topic/artificial-intelligence2",
-        "https://openai.com/blog/rss.xml",
-        "https://aimagazine.com/",
-        "https://techcrunch.com/category/artificial-intelligence",
-        "https://www.automate.org/ai/blogs?utm_source=chatgpt.com",
-        "https://www.automateed.com/blog?utm_source=chatgpt.com",
-        "https://www.automateshow.com/blog?utm_source=chatgpt.com"
+        "https://techcrunch.com/feed/",
+        "https://www.theverge.com/rss/index.xml",
+        "https://www.wired.com/feed/rss",
+        "https://feeds.arstechnica.com/arstechnica/index",
+        "https://www.technologyreview.com/feed/",
+        "https://www.engadget.com/rss.xml",
+        "https://www.zdnet.com/news/rss.xml",
+        "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+        "https://www.theguardian.com/uk/technology/rss",
+        "https://feeds.bbci.co.uk/news/technology/rss.xml",
+        "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+        "https://news.google.com/rss/search?q=%22artificial+intelligence%22+OR+%22enterprise+AI%22+when:7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Marketing": {
       "description": "Digital Marketing and Advertising News",
       "urls": [
-        "https://www.marketingbrew.com/?utm_source=chatgpt.com",
-        "https://www.marketingdive.com/?utm_source=chatgpt.com",
-        "https://www.cxtoday.com/?utm_source=chatgpt.com",
-        "https://digitalmarketinginstitute.com/blog/digital-marketing-trends-2025",
-        "https://news.google.com/topics/CAAqLQgKIidDQkFTRndvSkwyMHZNR1ptZHpWbUVnWmxjeTAwTVRrYUFrRlNLQUFQAQ?hl=es-419&gl=AR&ceid=AR%3Aes-419",
-        "https://www.digitalcommerce360.com/?utm_source=chatgpt.com",
-        "https://www.growthfriday.com/blog?utm_source=chatgpt.com",
-        "https://plannedgrowth.com/blog/?utm_source=chatgpt.com",
-        "https://8ms.com/blog",
-        "https://evo.agency/insights"
+        "https://www.marketingdive.com/feeds/news/",
+        "https://www.marketingbrew.com/",
+        "https://www.adweek.com/feed/",
+        "https://www.searchenginejournal.com/feed/",
+        "https://searchengineland.com/feed",
+        "https://blog.hubspot.com/marketing/rss.xml",
+        "https://contentmarketinginstitute.com/feed/",
+        "https://www.digitalcommerce360.com/",
+        "https://news.google.com/rss/search?q=%22B2B+marketing%22+OR+%22growth+marketing%22+OR+%22digital+advertising%22+when:7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Business": {
       "description": "Business News",
       "urls": [
-        "https://nmsconsulting.com/insights/the-biggest-management-consulting-trends-for-2025/?utm_source=chatgpt.com",
-        "https://www.iebschool.com/hub/tendencias-empresariales-innovacion-innovacion/?utm_source=chatgpt.com",
+        "https://feeds.hbr.org/harvardbusiness",
+        "https://fortune.com/feed/",
+        "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+        "https://feeds.bbci.co.uk/news/business/rss.xml",
+        "https://www.cnbc.com/id/10001147/device/rss/rss.html",
+        "https://www.businessinsider.com/rss",
+        "https://www.inc.com/rss",
+        "https://www.fastcompany.com/latest/rss",
         "https://www.gartner.com/en/newsroom",
-        "https://fortune.com/",
         "https://www.entrepreneur.com/",
-        "https://business-skills-mastery.com/business-growth-blog"
+        "https://news.google.com/rss/search?q=%22business+transformation%22+OR+%22operational+efficiency%22+OR+%22enterprise+strategy%22+when:7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Corporate Advisory": {
-      "description": "Corporate Advisory News",
+      "description": "Corporate Advisory, M&A and Finance News",
       "urls": [
-        "https://www.ft.com/markets",
-        "https://www.bloomberg.com/markets",
-        "https://www.reuters.com/business/finance/",
-        "https://techcrunch.com/category/startups/",
-        "https://news.crunchbase.com/",
-        "https://venturebeat.com/category/startups",
-        "https://www.wsj.com/",
-        "https://finance.yahoo.com/",
-        "https://fintechmagazine.com/?utm_source=chatgpt.com",
-        "https://fintechoutlook.com/blogs/",
-        "https://www.fintechnews.org/?utm_source=chatgpt.com"
+        "https://rss.nytimes.com/services/xml/rss/nyt/Dealbook.xml",
+        "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+        "https://www.ft.com/rss/home",
+        "https://www.cnbc.com/id/10000664/device/rss/rss.html",
+        "http://feeds.marketwatch.com/marketwatch/topstories/",
+        "https://news.crunchbase.com/feed/",
+        "https://techcrunch.com/category/startups/feed/",
+        "https://finance.yahoo.com/news/rssindex",
+        "https://fintechmagazine.com/",
+        "https://news.google.com/rss/search?q=%22mergers+and+acquisitions%22+OR+%22corporate+finance%22+OR+fintech+when:7d&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    "Agentes": {
+      "description": "AI agents y workflows autonomos (SWL Agents)",
+      "urls": [
+        "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "https://venturebeat.com/category/ai/feed/",
+        "https://www.technologyreview.com/feed/",
+        "https://www.theverge.com/rss/index.xml",
+        "https://news.google.com/rss/search?q=%22AI+agents%22+OR+%22agentic+AI%22+OR+%22autonomous+workflows%22+OR+%22AI+copilot%22+when:7d&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    "Private Equity": {
+      "description": "Private Equity, fondos y value creation con AI (SWL Funds)",
+      "urls": [
+        "https://www.pehub.com/feed/",
+        "https://www.buyoutsinsider.com/feed/",
+        "https://www.privateequitywire.co.uk/feed",
+        "https://rss.nytimes.com/services/xml/rss/nyt/Dealbook.xml",
+        "https://www.cnbc.com/id/15839069/device/rss/rss.html",
+        "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+        "https://news.google.com/rss/search?q=%22private+equity%22+OR+%22portfolio+value+creation%22+OR+%22AI+private+equity%22+when:7d&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    "Arqy": {
+      "description": "Real estate technology y proptech (ARQY)",
+      "urls": [
+        "https://therealdeal.com/feed/",
+        "https://commercialobserver.com/feed/",
+        "https://www.inman.com/feed/",
+        "https://www.housingwire.com/feed/",
+        "https://news.google.com/rss/search?q=proptech+OR+%22real+estate+technology%22+OR+%22property+management+software%22+when:7d&hl=en-US&gl=US&ceid=US:en"
       ]
     }
   }
