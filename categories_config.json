@@ -1,102 +1,76 @@
 {
   "categories": {
     "AI/Tech": {
-      "description": "Artificial Intelligence and Technology News",
+      "description": "Enterprise AI & automation (SWL Consulting - AI & Automation)",
       "urls": [
-        "https://aibusiness.com/",
-        "https://www.artificialintelligence-news.com/",
-        "https://newsroom.ibm.com/",
-        "https://venturebeat.com/ai/",
-        "https://news.mit.edu/rss/topic/artificial-intelligence2",
-        "https://techcrunch.com/feed/",
-        "https://www.theverge.com/rss/index.xml",
-        "https://www.wired.com/feed/rss",
-        "https://feeds.arstechnica.com/arstechnica/index",
+        "https://venturebeat.com/category/ai/feed/",
         "https://www.technologyreview.com/feed/",
-        "https://www.engadget.com/rss.xml",
-        "https://www.zdnet.com/news/rss.xml",
-        "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
-        "https://www.theguardian.com/uk/technology/rss",
-        "https://feeds.bbci.co.uk/news/technology/rss.xml",
-        "https://www.cnbc.com/id/19854910/device/rss/rss.html",
-        "https://news.google.com/rss/search?q=%22artificial+intelligence%22+OR+%22enterprise+AI%22+when:7d&hl=en-US&gl=US&ceid=US:en"
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://www.artificialintelligence-news.com/feed/",
+        "https://news.google.com/rss/search?q=%28site:theverge.com+OR+site:wired.com+OR+site:arstechnica.com+OR+site:cnbc.com+OR+site:nytimes.com%29+%28%22enterprise+AI%22+OR+%22AI+adoption%22+OR+%22AI+agents%22+OR+automation%29+when:7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%28site:forbes.com+OR+site:hbr.org+OR+site:mckinsey.com+OR+site:sloanreview.mit.edu%29+AI+when:7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Marketing": {
-      "description": "Digital Marketing and Advertising News",
+      "description": "B2B marketing & growth (SWL Consulting - Market Acceleration)",
       "urls": [
         "https://www.marketingdive.com/feeds/news/",
-        "https://www.marketingbrew.com/",
         "https://www.adweek.com/feed/",
         "https://www.searchenginejournal.com/feed/",
-        "https://searchengineland.com/feed",
         "https://blog.hubspot.com/marketing/rss.xml",
         "https://contentmarketinginstitute.com/feed/",
-        "https://www.digitalcommerce360.com/",
-        "https://news.google.com/rss/search?q=%22B2B+marketing%22+OR+%22growth+marketing%22+OR+%22digital+advertising%22+when:7d&hl=en-US&gl=US&ceid=US:en"
+        "https://news.google.com/rss/search?q=%28site:forbes.com+OR+site:hbr.org+OR+site:mckinsey.com%29+%28marketing+OR+growth+OR+%22demand+generation%22%29+when:7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Business": {
-      "description": "Business News",
+      "description": "Operations & transformation (SWL Consulting - Business Mastery)",
       "urls": [
         "https://feeds.hbr.org/harvardbusiness",
-        "https://fortune.com/feed/",
-        "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
-        "https://feeds.bbci.co.uk/news/business/rss.xml",
-        "https://www.cnbc.com/id/10001147/device/rss/rss.html",
-        "https://www.businessinsider.com/rss",
-        "https://www.inc.com/rss",
-        "https://www.fastcompany.com/latest/rss",
-        "https://www.gartner.com/en/newsroom",
-        "https://www.entrepreneur.com/",
-        "https://news.google.com/rss/search?q=%22business+transformation%22+OR+%22operational+efficiency%22+OR+%22enterprise+strategy%22+when:7d&hl=en-US&gl=US&ceid=US:en"
+        "https://sloanreview.mit.edu/feed/",
+        "https://news.google.com/rss/search?q=%28site:fortune.com+OR+site:bbc.com+OR+site:cnbc.com+OR+site:businessinsider.com+OR+site:inc.com+OR+site:fastcompany.com+OR+site:nytimes.com%29+%28%22operating+model%22+OR+operations+OR+%22business+transformation%22+OR+leadership+OR+strategy%29+when:7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%28site:forbes.com+OR+site:hbr.org+OR+site:mckinsey.com+OR+site:bain.com%29+%28operations+OR+transformation%29+when:7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Corporate Advisory": {
-      "description": "Corporate Advisory, M&A and Finance News",
+      "description": "Finance, M&A and strategy (SWL Consulting - Corporate Advisory)",
       "urls": [
         "https://rss.nytimes.com/services/xml/rss/nyt/Dealbook.xml",
         "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-        "https://www.ft.com/rss/home",
-        "https://www.cnbc.com/id/10000664/device/rss/rss.html",
-        "http://feeds.marketwatch.com/marketwatch/topstories/",
         "https://news.crunchbase.com/feed/",
-        "https://techcrunch.com/category/startups/feed/",
-        "https://finance.yahoo.com/news/rssindex",
-        "https://fintechmagazine.com/",
-        "https://news.google.com/rss/search?q=%22mergers+and+acquisitions%22+OR+%22corporate+finance%22+OR+fintech+when:7d&hl=en-US&gl=US&ceid=US:en"
+        "https://news.google.com/rss/search?q=%28site:fortune.com+OR+site:cnbc.com+OR+site:bloomberg.com+OR+site:ft.com+OR+site:reuters.com%29+%28%22M%26A%22+OR+%22corporate+finance%22+OR+CFO+OR+strategy%29+when:7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%28site:forbes.com+OR+site:hbr.org+OR+site:mckinsey.com+OR+site:institutionalinvestor.com%29+%28finance+OR+strategy%29+when:7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Agentes": {
-      "description": "AI agents y workflows autonomos (SWL Agents)",
+      "description": "AI agents & autonomous workflows (SWL Agents)",
       "urls": [
         "https://techcrunch.com/category/artificial-intelligence/feed/",
         "https://venturebeat.com/category/ai/feed/",
         "https://www.technologyreview.com/feed/",
-        "https://www.theverge.com/rss/index.xml",
+        "https://news.google.com/rss/search?q=%28site:forbes.com+OR+site:hbr.org+OR+site:mckinsey.com+OR+site:theinformation.com%29+%22AI+agents%22+when:7d&hl=en-US&gl=US&ceid=US:en",
         "https://news.google.com/rss/search?q=%22AI+agents%22+OR+%22agentic+AI%22+OR+%22autonomous+workflows%22+OR+%22AI+copilot%22+when:7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Private Equity": {
-      "description": "Private Equity, fondos y value creation con AI (SWL Funds)",
+      "description": "Private equity & value creation with AI (SWL Funds)",
       "urls": [
         "https://www.pehub.com/feed/",
         "https://www.buyoutsinsider.com/feed/",
         "https://www.privateequitywire.co.uk/feed",
         "https://rss.nytimes.com/services/xml/rss/nyt/Dealbook.xml",
-        "https://www.cnbc.com/id/15839069/device/rss/rss.html",
-        "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
-        "https://news.google.com/rss/search?q=%22private+equity%22+OR+%22portfolio+value+creation%22+OR+%22AI+private+equity%22+when:7d&hl=en-US&gl=US&ceid=US:en"
+        "https://news.google.com/rss/search?q=%28site:forbes.com+OR+site:mckinsey.com+OR+site:bain.com+OR+site:institutionalinvestor.com%29+%22private+equity%22+when:7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%22private+equity%22+OR+%22portfolio+value+creation%22+OR+%22operating+partner%22+when:7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Arqy": {
-      "description": "Real estate technology y proptech (ARQY)",
+      "description": "Proptech & real estate technology (ARQY)",
       "urls": [
         "https://therealdeal.com/feed/",
         "https://commercialobserver.com/feed/",
         "https://www.inman.com/feed/",
         "https://www.housingwire.com/feed/",
-        "https://news.google.com/rss/search?q=proptech+OR+%22real+estate+technology%22+OR+%22property+management+software%22+when:7d&hl=en-US&gl=US&ceid=US:en"
+        "https://news.google.com/rss/search?q=%28site:forbes.com+OR+site:bisnow.com%29+%28proptech+OR+%22real+estate+technology%22%29+when:7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=proptech+OR+%22real+estate+technology%22+OR+%22construction+technology%22+when:7d&hl=en-US&gl=US&ceid=US:en"
       ]
     }
   }
