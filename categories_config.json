@@ -1,68 +1,60 @@
 {
-  "_nota": "v2 (2026-07-22): sube la SENAL (fuentes autoritativas + queries de negocio) y baja el RUIDO (menos RSS firehose de modelos). AI SI, pero AI de NEGOCIO. Lanzamientos de modelos NO se descartan, pero entran via query enterprise. El Ranking hace el filtro final de calidad (piso de score).",
+  "_nota": "v3.1 (2026-07-23) PREMIUM. Fuentes de autoridad via queries site: + exclusiones negativas. Gobernado por 00_Estrategia/11_Reglamento_Editorial_Noticias.md. Filosofia: senal premium por categoria; ruido vendor/macro excluido en origen (-negativas); el Ranking pone el piso (gate + score>=70). NO se pescan model releases (contradicen el reglamento). v3.1 suma: Barron's, Pensions & Investments, Axios Pro Rata, Accenture, PwC, Knowledge@Wharton, Lenny's Newsletter, y acota Arqy LATAM a medios reales.",
   "categories": {
     "AI/Tech": {
-      "description": "Enterprise AI & automation for business leaders (SWL Consulting - AI & Automation)",
+      "description": "Enterprise AI adoption & execution for business leaders (SWL Consulting - AI & Automation). BUYER: COO/CTO/CEO. KILL model releases, benchmarks, research, consumer apps.",
       "urls": [
-        "https://www.technologyreview.com/feed/",
-        "https://news.google.com/rss/search?q=%28site:hbr.org+OR+site:mckinsey.com+OR+site:sloanreview.mit.edu+OR+site:bain.com+OR+site:bcg.com+OR+site:deloitte.com%29+%28%22enterprise+AI%22+OR+%22AI+adoption%22+OR+%22generative+AI%22+OR+%22AI+ROI%22+OR+%22AI+operating+model%22%29+when:7d&hl=en-US&gl=US&ceid=US:en",
-        "https://news.google.com/rss/search?q=%28site:theinformation.com+OR+site:cnbc.com+OR+site:reuters.com+OR+site:ft.com+OR+site:bloomberg.com+OR+site:wsj.com%29+%28%22enterprise+AI%22+OR+%22AI+at+work%22+OR+%22AI+productivity%22+OR+%22AI+strategy%22+OR+%22AI+investment%22%29+when:7d&hl=en-US&gl=US&ceid=US:en",
-        "https://news.google.com/rss/search?q=%28%22OpenAI%22+OR+%22Anthropic%22+OR+%22Google+DeepMind%22+OR+%22Microsoft+AI%22%29+%28%22enterprise%22+OR+%22for+business%22+OR+%22for+work%22+OR+%22agents%22+OR+%22launches%22%29+when:7d&hl=en-US&gl=US&ceid=US:en"
+        "https://news.google.com/rss/search?q=%28site%3Ahbr.org+OR+site%3Amckinsey.com+OR+site%3Asloanreview.mit.edu+OR+site%3Abain.com+OR+site%3Abcg.com+OR+site%3Adeloitte.com+OR+site%3Aaccenture.com+OR+site%3Apwc.com%29+%28%22enterprise+AI%22+OR+%22AI+adoption%22+OR+%22AI+ROI%22+OR+%22AI+operating+model%22+OR+%22AI+transformation%22%29+-benchmark+-%22model+release%22+-chatbot+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%28site%3Atheinformation.com+OR+site%3Aft.com+OR+site%3Awsj.com+OR+site%3Acnbc.com+OR+site%3Areuters.com+OR+site%3Afortune.com%29+%28%22enterprise+AI%22+OR+%22AI+productivity%22+OR+%22AI+strategy%22+OR+%22AI+at+work%22+OR+%22return+on+AI%22%29+-benchmark+-%22model+launch%22+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%28site%3Ahbr.org+OR+site%3Amckinsey.com+OR+site%3Asloanreview.mit.edu%29+%28%22scaling+AI%22+OR+%22AI+implementation%22+OR+%22why+AI+projects+fail%22+OR+%22AI+adoption+gap%22+OR+%22AI+pilots%22%29+when%3A7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Marketing": {
-      "description": "B2B marketing & growth (SWL Consulting - Market Acceleration)",
+      "description": "B2B growth & demand via systems (SWL Consulting - Market Acceleration). BUYER: Head of Sales/RevOps. KILL algorithm tips, ad tactics, influencer trends, martech launches.",
       "urls": [
-        "https://www.marketingdive.com/feeds/news/",
-        "https://www.searchenginejournal.com/feed/",
-        "https://news.google.com/rss/search?q=%28site:hbr.org+OR+site:mckinsey.com+OR+site:forbes.com%29+%28%22B2B+marketing%22+OR+%22growth+marketing%22+OR+%22demand+generation%22+OR+%22AI+marketing%22+OR+%22marketing+strategy%22%29+when:7d&hl=en-US&gl=US&ceid=US:en",
-        "https://news.google.com/rss/search?q=%28%22B2B+marketing%22+OR+%22content+marketing%22+OR+%22marketing+automation%22+OR+%22AI+in+marketing%22%29+when:7d&hl=en-US&gl=US&ceid=US:en"
+        "https://news.google.com/rss/search?q=%28site%3Ahbr.org+OR+site%3Amckinsey.com+OR+site%3Agartner.com+OR+site%3Aforrester.com%29+%28%22B2B+marketing%22+OR+%22demand+generation%22+OR+%22revenue+operations%22+OR+%22go-to-market%22+OR+%22marketing+efficiency%22%29+-%22ad+tips%22+-influencer+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%28site%3Aforbes.com+OR+site%3Afirstround.com+OR+site%3Asaastr.com+OR+site%3Alennysnewsletter.com%29+%28%22growth+marketing%22+OR+%22pipeline+efficiency%22+OR+%22GTM+strategy%22+OR+%22marketing+automation%22+OR+%22CAC+reduction%22%29+when%3A7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Business": {
-      "description": "Operations & transformation (SWL Consulting - Business Mastery)",
+      "description": "Operations & transformation (SWL Consulting - Business Mastery). BUYER: COO/Head of Ops. KILL earnings without operating angle, generic HR, business color.",
       "urls": [
-        "https://feeds.hbr.org/harvardbusiness",
         "https://sloanreview.mit.edu/feed/",
-        "https://news.google.com/rss/search?q=%28site:fortune.com+OR+site:cnbc.com+OR+site:inc.com+OR+site:fastcompany.com%29+%28%22operating+model%22+OR+operations+OR+%22business+transformation%22+OR+%22operational+efficiency%22+OR+leadership%29+when:7d&hl=en-US&gl=US&ceid=US:en",
-        "https://news.google.com/rss/search?q=%28site:mckinsey.com+OR+site:bain.com+OR+site:bcg.com+OR+site:deloitte.com%29+%28operations+OR+transformation+OR+productivity+OR+%22operating+model%22%29+when:7d&hl=en-US&gl=US&ceid=US:en"
+        "https://news.google.com/rss/search?q=%28site%3Ahbr.org+OR+site%3Amckinsey.com+OR+site%3Abain.com+OR+site%3Abcg.com+OR+site%3Adeloitte.com+OR+site%3Aaccenture.com+OR+site%3Apwc.com%29+%28%22operating+model%22+OR+operations+OR+%22business+transformation%22+OR+%22operational+efficiency%22+OR+productivity%29+-earnings+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%28site%3Asloanreview.mit.edu+OR+site%3Aeconomist.com+OR+site%3Afortune.com+OR+site%3Aknowledge.wharton.upenn.edu%29+%28%22operating+model%22+OR+%22process+redesign%22+OR+%22scaling+operations%22+OR+%22cost+structure%22%29+when%3A7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Corporate Advisory": {
-      "description": "Finance, M&A and strategy (SWL Consulting - Corporate Advisory)",
+      "description": "Finance, M&A and strategy (SWL Consulting - Corporate Advisory). BUYER: CEO/CFO. KILL pure macro, stock picks, commodities, regulation-as-politics.",
       "urls": [
-        "https://rss.nytimes.com/services/xml/rss/nyt/Dealbook.xml",
-        "https://news.crunchbase.com/feed/",
-        "https://news.google.com/rss/search?q=%28site:fortune.com+OR+site:cnbc.com+OR+site:bloomberg.com+OR+site:ft.com+OR+site:reuters.com%29+%28%22M%26A%22+OR+%22corporate+finance%22+OR+CFO+OR+restructuring+OR+%22capital+raise%22%29+when:7d&hl=en-US&gl=US&ceid=US:en",
-        "https://news.google.com/rss/search?q=%28site:hbr.org+OR+site:mckinsey.com+OR+site:institutionalinvestor.com%29+%28finance+OR+strategy+OR+%22capital+allocation%22+OR+valuation%29+when:7d&hl=en-US&gl=US&ceid=US:en"
+        "https://news.google.com/rss/search?q=%28site%3Awsj.com+OR+site%3Abloomberg.com+OR+site%3Aft.com+OR+site%3Areuters.com+OR+site%3Abarrons.com%29+%28%22mid-market+M%26A%22+OR+%22corporate+finance%22+OR+CFO+OR+restructuring+OR+%22capital+allocation%22%29+-%22stock+pick%22+-commodity+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%28site%3Ahbr.org+OR+site%3Amckinsey.com+OR+site%3Ainstitutionalinvestor.com+OR+site%3Acorpgov.law.harvard.edu+OR+site%3Aknowledge.wharton.upenn.edu%29+%28finance+OR+strategy+OR+%22capital+allocation%22+OR+valuation+OR+%22financial+transformation%22%29+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%28site%3Amckinsey.com+OR+site%3Apwc.com+OR+site%3Adeloitte.com+OR+site%3Aaccenture.com%29+%28%22CFO+agenda%22+OR+%22finance+transformation%22+OR+%22FP%26A%22+OR+%22AI+in+finance%22%29+when%3A7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Agentes": {
-      "description": "AI agents & autonomous workflows in the enterprise (SWL Agents)",
+      "description": "AI agents doing real end-to-end work in the enterprise (SWL Agents). BUYER: RevOps/Ops/CMO/CTO. KILL framework/product launches, research demos, hype.",
       "urls": [
-        "https://venturebeat.com/category/ai/feed/",
-        "https://news.google.com/rss/search?q=%28site:hbr.org+OR+site:mckinsey.com+OR+site:theinformation.com+OR+site:forbes.com+OR+site:cnbc.com%29+%28%22AI+agents%22+OR+%22agentic+AI%22+OR+%22AI+copilot%22+OR+%22AI+automation%22%29+when:7d&hl=en-US&gl=US&ceid=US:en",
-        "https://news.google.com/rss/search?q=%28%22AI+agents%22+OR+%22agentic+AI%22+OR+%22autonomous+workflows%22%29+%28%22enterprise%22+OR+%22deployment%22+OR+%22ROI%22+OR+%22customer+service%22+OR+%22sales%22+OR+%22operations%22%29+when:7d&hl=en-US&gl=US&ceid=US:en"
+        "https://news.google.com/rss/search?q=%28site%3Ahbr.org+OR+site%3Amckinsey.com+OR+site%3Atheinformation.com+OR+site%3Aa16z.com+OR+site%3Asequoiacap.com+OR+site%3Amenlovc.com%29+%28%22AI+agents%22+OR+%22agentic%22+OR+%22autonomous+workflow%22%29+-framework+-demo+-preview+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%28%22AI+agents%22+OR+%22agentic+AI%22+OR+%22autonomous+workflows%22%29+%28enterprise+OR+production+OR+ROI+OR+%22customer+service%22+OR+operations+OR+%22case+study%22%29+-launches+-preview+when%3A7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Private Equity": {
-      "description": "Private equity & value creation with AI (SWL Funds)",
+      "description": "PE value creation via operations & AI (SWL Funds). BUYER: GP/MD/LP mid-market. KILL deal announcements without operating angle, fund launches, LP gossip, macro.",
       "urls": [
-        "https://www.pehub.com/feed/",
-        "https://www.buyoutsinsider.com/feed/",
-        "https://www.privateequitywire.co.uk/feed",
-        "https://news.google.com/rss/search?q=%28site:institutionalinvestor.com+OR+site:mckinsey.com+OR+site:bain.com+OR+site:pitchbook.com%29+%28%22private+equity%22+OR+%22value+creation%22+OR+%22operating+partner%22+OR+%22portfolio+company%22%29+when:7d&hl=en-US&gl=US&ceid=US:en",
-        "https://news.google.com/rss/search?q=%28%22private+equity%22+OR+%22portfolio+value+creation%22+OR+%22operating+partner%22%29+%28%22AI%22+OR+%22automation%22+OR+%22operational+improvement%22+OR+EBITDA%29+when:7d&hl=en-US&gl=US&ceid=US:en"
+        "https://news.google.com/rss/search?q=%28site%3Ainstitutionalinvestor.com+OR+site%3Amckinsey.com+OR+site%3Abain.com+OR+site%3Apitchbook.com+OR+site%3Aprivateequityinternational.com%29+%28%22value+creation%22+OR+%22operating+partner%22+OR+%22portfolio+company%22+OR+%22private+equity+operations%22%29+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%28%22private+equity%22+OR+%22portfolio+company%22%29+%28AI+OR+automation+OR+%22operational+improvement%22+OR+EBITDA+OR+%22value+creation%22%29+-%22closes+fund%22+-fundraising+-%22LP+commitment%22+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%28site%3Apionline.com+OR+site%3Aaxios.com+OR+site%3Abarrons.com%29+%28%22private+equity%22+OR+%22value+creation%22+OR+%22operating+partner%22+OR+%22portfolio+company%22%29+when%3A7d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     "Arqy": {
-      "description": "Proptech, construction tech & real estate technology (ARQY)",
+      "description": "Proptech, construction tech & real estate operating systems (ARQY). BUYER: developers/construction/investors (LATAM). KILL energy/commodities, home prices, mortgage rates.",
       "urls": [
         "https://therealdeal.com/feed/",
         "https://commercialobserver.com/feed/",
-        "https://www.housingwire.com/feed/",
-        "https://news.google.com/rss/search?q=%28site:forbes.com+OR+site:bisnow.com+OR+site:techcrunch.com%29+%28proptech+OR+%22real+estate+technology%22+OR+%22construction+technology%22+OR+%22construction+software%22%29+when:7d&hl=en-US&gl=US&ceid=US:en",
-        "https://news.google.com/rss/search?q=%28proptech+OR+%22real+estate+technology%22+OR+%22construction+tech%22+OR+contech+OR+%22property+management+software%22%29+when:7d&hl=en-US&gl=US&ceid=US:en"
+        "https://news.google.com/rss/search?q=%28site%3Apropmodo.com+OR+site%3Abisnow.com+OR+site%3Aconstructiondive.com+OR+site%3Aenr.com%29+%28proptech+OR+%22real+estate+technology%22+OR+%22construction+technology%22+OR+%22property+management+software%22+OR+contech%29+-%22mortgage+rate%22+-%22home+prices%22+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%28site%3Aforbes.com+OR+site%3Atherealdeal.com+OR+site%3Acommercialobserver.com%29+%28%22real+estate+tokenization%22+OR+%22cost+overruns%22+OR+%22digital+construction%22+OR+%22fractional+real+estate%22%29+when%3A7d&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%28site%3Aiprofesional.com+OR+site%3Acronista.com+OR+site%3Alanacion.com.ar%29+%28proptech+OR+inmobiliario+OR+construccion+OR+%22gestion+de+obra%22+OR+%22desarrollo+inmobiliario%22%29+-hipoteca+when%3A7d&hl=es-419&gl=AR&ceid=AR:es"
       ]
     }
   }
